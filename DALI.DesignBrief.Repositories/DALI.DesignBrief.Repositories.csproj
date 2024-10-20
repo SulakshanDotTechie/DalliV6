@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ChinhDo.Transactions.FileManager" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DALI.DesignBrief.BusinessTypes\DALI.DesignBrief.BusinessTypes.csproj" />
+    <ProjectReference Include="..\DALI.DesignBrief.DataEntityModels\DALI.DesignBrief.DataEntityModels.csproj" />
+    <ProjectReference Include="..\DALI.DesignBrief.DomainModels\DALI.DesignBrief.DomainModels.csproj" />
+    <ProjectReference Include="..\DALI.DesignBrief.Resources\DALI.DesignBrief.Resources.csproj" />
+    <ProjectReference Include="..\DALI.PolicyRequirements.DataEntityModels\DALI.PolicyRequirements.DataEntityModels.csproj" />
+  </ItemGroup>
+
+</Project>

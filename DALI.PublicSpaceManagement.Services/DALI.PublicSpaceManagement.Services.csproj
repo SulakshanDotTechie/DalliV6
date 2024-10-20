@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="PublicSpaceManagementServices.Modifications.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="PublicSpaceManagementServices.Modifications.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.5.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+    <PackageReference Include="System.Linq.Queryable" Version="4.3.0" />
+    <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DALI.PolicyRequirements.BusinessRules\DALI.PolicyRequirements.BusinessRules.csproj" />
+    <ProjectReference Include="..\DALI.PolicyRequirements.DataEntityModels\DALI.PolicyRequirements.DataEntityModels.csproj" />
+    <ProjectReference Include="..\DALI.PolicyRequirements.Repositories\DALI.PolicyRequirements.Repositories.csproj" />
+    <ProjectReference Include="..\DALI.PublicSpaceManagement.Shared\DALI.PublicSpaceManagement.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

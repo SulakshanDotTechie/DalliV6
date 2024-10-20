@@ -1,0 +1,6 @@
+@DALI.PolicyRequirement.Contoller_HostAddress = http://localhost:5213
+
+GET {{DALI.PolicyRequirement.Contoller_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,1469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Aantal" xml:space="preserve">
+    <value>Aantal</value>
+  </data>
+  <data name="AcadDWGNotSupported" xml:space="preserve">
+    <value>AutoCAD Bestandsformaat "dwg" wordt niet ondersteunt als browser preview. Kies voor het "dwf" bestandsformaat. Of klik op download om het orginele bestand in ACAD te openen.</value>
+  </data>
+  <data name="AcadDXFNotSupported" xml:space="preserve">
+    <value>AutoCAD Bestandsformaat "dxf" wordt niet ondersteunt als browser preview. Kies voor het "dwf" bestandsformaat. Of klik op download om het orginele bestand in ACAD te openen.</value>
+  </data>
+  <data name="Accepted" xml:space="preserve">
+    <value>Akkoord</value>
+  </data>
+  <data name="AcceptTermsOfConditions" xml:space="preserve">
+    <value>Ik ga akkoord met de voorwaarden</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>Accountgegevens</value>
+  </data>
+  <data name="AccountApproved" xml:space="preserve">
+    <value>Account toestaan?</value>
+  </data>
+  <data name="AccountBlockedTooltip" xml:space="preserve">
+    <value>Account is geblokkeerd door wachtwoord verkeerd invoeren</value>
+  </data>
+  <data name="AccountLocked" xml:space="preserve">
+    <value>Account op slot?</value>
+  </data>
+  <data name="AccountOnthouden" xml:space="preserve">
+    <value>Mijn account onthouden?</value>
+  </data>
+  <data name="Achternaam" xml:space="preserve">
+    <value>Achternaam</value>
+  </data>
+  <data name="ActionDescription" xml:space="preserve">
+    <value>Wijzigingsverzoek</value>
+  </data>
+  <data name="Activiteit" xml:space="preserve">
+    <value>Activiteit</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="AddBookmark" xml:space="preserve">
+    <value>Favoriet toevoegen</value>
+  </data>
+  <data name="AddBookmarkFolder" xml:space="preserve">
+    <value>Nieuwe folder</value>
+    <comment>Add</comment>
+  </data>
+  <data name="AddBookmarkTooltip" xml:space="preserve">
+    <value>Sla veel gezochte zoektopties op als een favoriet</value>
+  </data>
+  <data name="AddForOwnerChangesMessage" xml:space="preserve">
+    <value>Wijzigingen aanbrengen op de gekozen eis?</value>
+  </data>
+  <data name="AdditionalInfo" xml:space="preserve">
+    <value>Toelichting</value>
+  </data>
+  <data name="AdditionalInfoEditorWindowTitle" xml:space="preserve">
+    <value>Toelichting op review</value>
+  </data>
+  <data name="AdditionalInfoIsRequired" xml:space="preserve">
+    <value>Toelichting is verplicht!</value>
+  </data>
+  <data name="AdditionalInfoRejectChangeRequestHelperText" xml:space="preserve">
+    <value>[Geef een toelichting op het afwijzen van dit wijzigingsverzoek aan de indiener]</value>
+  </data>
+  <data name="AdditionalInfoRejectPublishingHelperText" xml:space="preserve">
+    <value>[Licht het afwijzen voor publicatie toe aan de eigenaar]</value>
+  </data>
+  <data name="AddPolicyRequirement" xml:space="preserve">
+    <value>Eis toevoegen</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="AddSchedulePublishing" xml:space="preserve">
+    <value>Nieuwe publicatie inplannen</value>
+  </data>
+  <data name="AdministratieAfgekeurd" xml:space="preserve">
+    <value>Administratie afgekeurd</value>
+  </data>
+  <data name="AdministratieAkkoord" xml:space="preserve">
+    <value>Administratie akkoord</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Beheer</value>
+  </data>
+  <data name="Afbreken" xml:space="preserve">
+    <value>Afbreken</value>
+  </data>
+  <data name="AfdelingAfgekeurd" xml:space="preserve">
+    <value>Afdeling afgekeurd</value>
+  </data>
+  <data name="AfdelingAkkoord" xml:space="preserve">
+    <value>Afdeling akkoord</value>
+  </data>
+  <data name="AkkoordAfdeling" xml:space="preserve">
+    <value>Akkoord afdeling</value>
+  </data>
+  <data name="Annuleren" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Aanvragen</value>
+  </data>
+  <data name="ApplyForAccount" xml:space="preserve">
+    <value>Geen account?</value>
+  </data>
+  <data name="ApplyForAccountTitle" xml:space="preserve">
+    <value>Account aanvragen</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Akkoord</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Akkoord</value>
+  </data>
+  <data name="ApproveFirstMessage" xml:space="preserve">
+    <value>Akkordeer eerst de wijzigingsverzoek om te kunnen bewerken</value>
+  </data>
+  <data name="AptNumber" xml:space="preserve">
+    <value>Huisnummer</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Gebied</value>
+  </data>
+  <data name="AreaElementKind" xml:space="preserve">
+    <value>Gebied/Elementsoort</value>
+  </data>
+  <data name="Areas" xml:space="preserve">
+    <value>Gebieden</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>Bijlage</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>Bijlagen</value>
+  </data>
+  <data name="AttachmentsSources" xml:space="preserve">
+    <value>Bijlagen &amp; Bronverwijzingen</value>
+  </data>
+  <data name="AttachmentsTileDescription" xml:space="preserve">
+    <value>In de bijlagen zijn in één overzicht alle (detail)bestanden gerubriceerd. Alle bestanden zijn in verschillende formaten desgewenst te downloaden.</value>
+  </data>
+  <data name="AttachmentsTileMainTitle" xml:space="preserve">
+    <value>BIJLAGEN</value>
+  </data>
+  <data name="AttachmentsTileSubTitle" xml:space="preserve">
+    <value>Overzicht van bijlagen</value>
+  </data>
+  <data name="BevestigWachtwoord" xml:space="preserve">
+    <value>Bevestig wachtwoord</value>
+  </data>
+  <data name="Bookmark" xml:space="preserve">
+    <value>Favorieten</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="CancelDetailChanges" xml:space="preserve">
+    <value>Alle wijzigingen annuleren?</value>
+  </data>
+  <data name="Canceled" xml:space="preserve">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="CannotRemoveOwner" xml:space="preserve">
+    <value>Kan gebruikersaccount niet verwijderen. Gebruiker is eigenaar van eisen.</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Categorie</value>
+  </data>
+  <data name="ChangeOrderFailed" xml:space="preserve">
+    <value>Wijzigen van volgorde eisen is niet geslaagd.</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Wachtwoord wijzigen</value>
+  </data>
+  <data name="ChangeRequest" xml:space="preserve">
+    <value>Wijzigingsverzoek</value>
+  </data>
+  <data name="ChangeRequestIsBeingProcessed" xml:space="preserve">
+    <value>Wijzigingsverzoek is in behandeling genomen</value>
+  </data>
+  <data name="ChangeRequestIsNotBeingProcessed" xml:space="preserve">
+    <value>Wijzigingsverzoek is niet in behandeling genomen</value>
+  </data>
+  <data name="ChangeRequests" xml:space="preserve">
+    <value>Wijzigingsverzoeken</value>
+  </data>
+  <data name="ChangeRequestsInProgressMessage" xml:space="preserve">
+    <value>Momenteel zijn er nog wijzigingsverzoeken in behandeling. Alsnog de status "Verstuurd naar publisher" toekennen?</value>
+  </data>
+  <data name="ChangesAreFinalAndReadyForPublishing" xml:space="preserve">
+    <value>Verstuurd naar publisher</value>
+  </data>
+  <data name="ChangeType" xml:space="preserve">
+    <value>Type wijziging</value>
+  </data>
+  <data name="Chapter" xml:space="preserve">
+    <value>Hoofdstuk</value>
+  </data>
+  <data name="ChapterNumber" xml:space="preserve">
+    <value>Hoofdstuk</value>
+  </data>
+  <data name="Chapters" xml:space="preserve">
+    <value>Hoofdstukken</value>
+  </data>
+  <data name="ChildSubject" xml:space="preserve">
+    <value>Subonderwerp</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Plaats</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Verwerkt</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Bevestigen</value>
+  </data>
+  <data name="ConfirmAddToOwnerChangeQueue" xml:space="preserve">
+    <value>De gekozen eis klaar zetten voor wijziging? (Zie tabblad eigen wijziging)</value>
+  </data>
+  <data name="ConfirmDeletePolicyRequirementMessage" xml:space="preserve">
+    <value>De gekozen eis verwijderen?</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Bevestig wachtwoord</value>
+  </data>
+  <data name="ConfirmRemoveOwnerAdjustmentMessage" xml:space="preserve">
+    <value>De gekozen eigen wijziging verwijderen?</value>
+  </data>
+  <data name="Consider" xml:space="preserve">
+    <value>In behandeling nemen</value>
+  </data>
+  <data name="ContactCoordinator" xml:space="preserve">
+    <value>Neem voor meer informatie contact op met de DALI-coördinator.</value>
+  </data>
+  <data name="CouldNotConnectMailServer" xml:space="preserve">
+    <value>Could not connect to mail server. {0}</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Aanmaken</value>
+  </data>
+  <data name="CreateAccount" xml:space="preserve">
+    <value>Account aanmaken</value>
+  </data>
+  <data name="CreateDate" xml:space="preserve">
+    <value>Startdatum</value>
+  </data>
+  <data name="CreatedDate" xml:space="preserve">
+    <value>Ingepland</value>
+  </data>
+  <data name="CreateIn" xml:space="preserve">
+    <value>Aanmaken in</value>
+  </data>
+  <data name="CreateNewUser" xml:space="preserve">
+    <value>Nieuw</value>
+  </data>
+  <data name="CreateUserErrorMessage" xml:space="preserve">
+    <value>Er is een fout opgetreden bij het aanmaken van een nieuwe gebruikersaccount</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Creatiedatum</value>
+  </data>
+  <data name="CurrentVersion" xml:space="preserve">
+    <value>PUBLICATIE</value>
+  </data>
+  <data name="DALIPublishingService" xml:space="preserve">
+    <value>DALI Publicatie</value>
+  </data>
+  <data name="DateOfBirth" xml:space="preserve">
+    <value>Geboortedatum</value>
+  </data>
+  <data name="Datum" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="DefaultPasswordLength" xml:space="preserve">
+    <value>Wachtwoord dient minimaal uit {0} karakter(s) te bestaan.</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="DeleteArea" xml:space="preserve">
+    <value>Gebied kan niet verwijderd worden. Er staan wijzigingen ingepland voor publicatie die dit gebied bevatten.</value>
+  </data>
+  <data name="DeleteChapter" xml:space="preserve">
+    <value>Hoofdstuk kan niet verwijderd worden. Er staan wijzigingen ingepland voor publicatie die dit hoofdstuk bevatten.</value>
+  </data>
+  <data name="DeleteOwnerChanges" xml:space="preserve">
+    <value>Eigen wijziging verwijderen</value>
+  </data>
+  <data name="DeletePoR" xml:space="preserve">
+    <value>Plan van Eisen verwijderen? </value>
+  </data>
+  <data name="DeleteScheduledPublication" xml:space="preserve">
+    <value>De geplande publicatie verwijderen?</value>
+  </data>
+  <data name="DeleteSubject" xml:space="preserve">
+    <value>Onderwerp kan niet verwijderd worden. Er staan wijzigingen ingepland voor publicatie die dit onderwerp bevatten.</value>
+  </data>
+  <data name="DeleteUserAccount" xml:space="preserve">
+    <value>Account en rollen verwijderen voor de geselecteerde gebruiker?</value>
+  </data>
+  <data name="DenyUpdateOrder" xml:space="preserve">
+    <value>Volgorde veranderen niet mogelijk. U bent geen eigenaar van deze eis(-en)</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Omschrijving</value>
+  </data>
+  <data name="Dimensie" xml:space="preserve">
+    <value>Dimensie</value>
+  </data>
+  <data name="DownloadAll" xml:space="preserve">
+    <value>Bestanden downloaden</value>
+  </data>
+  <data name="DownloadAllWithAttachments" xml:space="preserve">
+    <value>Bestanden inclusief bijlagen downloaden</value>
+  </data>
+  <data name="DownloadFiles" xml:space="preserve">
+    <value>Bestanden downloaden</value>
+  </data>
+  <data name="DownloadTooltip" xml:space="preserve">
+    <value>Download media bestand:</value>
+  </data>
+  <data name="DuplicateEmail" xml:space="preserve">
+    <value>E-mailadres komt reeds voor. Vul een andere e-mailadres in.</value>
+  </data>
+  <data name="DuplicateUserName" xml:space="preserve">
+    <value>Gebruikersnaam komt reeds voor. Vul een andere gebruikersnaam in.</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Wijzigen</value>
+  </data>
+  <data name="EditArea" xml:space="preserve">
+    <value>Wijzigen Gebied / elementsoort</value>
+  </data>
+  <data name="EditAttachment" xml:space="preserve">
+    <value>Wijzigen bijlage</value>
+  </data>
+  <data name="EditBookmark" xml:space="preserve">
+    <value>Wijzigen favoriet</value>
+  </data>
+  <data name="EditChapter" xml:space="preserve">
+    <value>Wijzigen hoofdstuk</value>
+  </data>
+  <data name="EditHardness" xml:space="preserve">
+    <value>Wijzigen hardheid</value>
+  </data>
+  <data name="Editing" xml:space="preserve">
+    <value>Wijzigen</value>
+  </data>
+  <data name="EditMedia" xml:space="preserve">
+    <value>Wijzigen media</value>
+  </data>
+  <data name="EditPolicyRequirement" xml:space="preserve">
+    <value>Wijzigen eis</value>
+  </data>
+  <data name="EditPoR" xml:space="preserve">
+    <value>Wijzigen</value>
+  </data>
+  <data name="EditRibbon" xml:space="preserve">
+    <value>WIJZIGINGEN</value>
+  </data>
+  <data name="EditSource" xml:space="preserve">
+    <value>Wijzigen bronverwijzing</value>
+  </data>
+  <data name="EditSubject" xml:space="preserve">
+    <value>Wijzigen onderwerp</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>E-mailadres</value>
+  </data>
+  <data name="EmailNietLeeg" xml:space="preserve">
+    <value>E-mail bevat geen geldige waarde</value>
+  </data>
+  <data name="EndTime" xml:space="preserve">
+    <value>Eind</value>
+  </data>
+  <data name="EnterUserCredentials" xml:space="preserve">
+    <value>Gebruikersaccount</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Fout</value>
+  </data>
+  <data name="ErrorDeleteUser" xml:space="preserve">
+    <value>Er is een fout opgetreden verwijderen van gebruikersaccount</value>
+  </data>
+  <data name="ErrorDuplicateKeyword" xml:space="preserve">
+    <value>Waarde bestaat reeds als sleutelwoord, hoofdstuk, niveau, Gebied / elementsoort of onderwerp. Dubbele gegevens mogen niet voorkomen.</value>
+  </data>
+  <data name="ErrorDuplicateValue" xml:space="preserve">
+    <value>Dubbele gegevens mogen niet voorkomen.</value>
+  </data>
+  <data name="ErrorUnpublishedVersionScheduled" xml:space="preserve">
+    <value>Er staat momenteel een publicatie ingepland! Publiceer deze eerst.</value>
+  </data>
+  <data name="Excel" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="ExpandCollapseAll" xml:space="preserve">
+    <value>in-/uitklappen</value>
+  </data>
+  <data name="ExpandOrCollapse" xml:space="preserve">
+    <value>Resultaten inklappen of uitklappen</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ExportModule" xml:space="preserve">
+    <value>LIOR</value>
+  </data>
+  <data name="Extra" xml:space="preserve">
+    <value>Extra</value>
+  </data>
+  <data name="Factureerbaar" xml:space="preserve">
+    <value>Factureerbaar</value>
+  </data>
+  <data name="Factureerbareuren" xml:space="preserve">
+    <value>Factureerbare uren</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="FeedbackFrom" xml:space="preserve">
+    <value>&lt;a href='mailto:{0}'&gt;{1}&lt;/a&gt; schreef het volgende:</value>
+  </data>
+  <data name="FeedbackMailSubject" xml:space="preserve">
+    <value>Feedbackformulier</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>Vrouw</value>
+  </data>
+  <data name="FetchByDefault" xml:space="preserve">
+    <value>Zoekoptie standaard actief</value>
+  </data>
+  <data name="FetchByDefaultToolTip" xml:space="preserve">
+    <value>Gekozen item standaard meenemen als zoekcriteria bij ophalen van resultaten</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>Bestandsnaam</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>Het bestand "{0}" kan niet gedownload worden. Neem contact op met de beheerder van DALI.</value>
+  </data>
+  <data name="Final" xml:space="preserve">
+    <value>Definitief</value>
+  </data>
+  <data name="FindUser" xml:space="preserve">
+    <value>Gebruiker zoeken</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Voornaam</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Vraag uw wachtwoord hier op</value>
+  </data>
+  <data name="FullScreen" xml:space="preserve">
+    <value>Toon volledig scherm</value>
+  </data>
+  <data name="Gebruikersnaam" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+  </data>
+  <data name="GebruikersnaamNietLeeg" xml:space="preserve">
+    <value>Gebruikersnaam bevat geen geldige waarde</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Geslacht</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>Algemeen</value>
+  </data>
+  <data name="GetNewPassword" xml:space="preserve">
+    <value>Wachtwoord vergeten?</value>
+  </data>
+  <data name="GoogleMaps" xml:space="preserve">
+    <value>Google Maps</value>
+  </data>
+  <data name="GrantAccess" xml:space="preserve">
+    <value>Toegang</value>
+  </data>
+  <data name="Guide" xml:space="preserve">
+    <value>HANDBOEK</value>
+  </data>
+  <data name="Hardness" xml:space="preserve">
+    <value>Hardheid</value>
+  </data>
+  <data name="HasInprogressChanges" xml:space="preserve">
+    <value>Openstaande wijzigingsverzoeken in behandeling</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="HelpDesk" xml:space="preserve">
+    <value>DALI-Helpdesk</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>Help omschrijving</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>HOME</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>uur</value>
+  </data>
+  <data name="HuidigeWeek" xml:space="preserve">
+    <value>Huidige week</value>
+  </data>
+  <data name="HuidigeWeekOpenen" xml:space="preserve">
+    <value>Huidige week openen</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>Inactief</value>
+  </data>
+  <data name="InBewerking" xml:space="preserve">
+    <value>In bewerking</value>
+  </data>
+  <data name="IncidentManagementManual" xml:space="preserve">
+    <value>Instructiehandboek Wachtdienst</value>
+  </data>
+  <data name="IncorrectInloggen" xml:space="preserve">
+    <value>Inloggen is niet voltooid. Corrigeer de fouten en probeer het nog eens.</value>
+  </data>
+  <data name="IncorrectInputFormat" xml:space="preserve">
+    <value>Incorrecte invoer formaat. Controleer uw invoer!</value>
+  </data>
+  <data name="IncorrectPasswordChange" xml:space="preserve">
+    <value>Wachtwoord wijzigen mislukt. Controleer uw gegevens.</value>
+  </data>
+  <data name="IncorrectPasswordModel" xml:space="preserve">
+    <value>Incorrecte model validatie op wachtwoord wijzigen</value>
+  </data>
+  <data name="IncorrectValueProcessing" xml:space="preserve">
+    <value>Onjuist gegevens verwerking</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="Ingevoerd" xml:space="preserve">
+    <value>Ingevoerd</value>
+  </data>
+  <data name="IngevoerdNaProjectAkkoord" xml:space="preserve">
+    <value>Ingevoerd (na project akkoord)</value>
+  </data>
+  <data name="InProgress" xml:space="preserve">
+    <value>In behandeling</value>
+  </data>
+  <data name="InprogressRejected" xml:space="preserve">
+    <value>Niet in behandeling</value>
+  </data>
+  <data name="InsertArea" xml:space="preserve">
+    <value>Toevoegen Gebied / elementsoort</value>
+  </data>
+  <data name="InsertAttachment" xml:space="preserve">
+    <value>Toevoegen bijlage</value>
+  </data>
+  <data name="InsertBookmark" xml:space="preserve">
+    <value>Toevoegen favoriet</value>
+  </data>
+  <data name="InsertChapter" xml:space="preserve">
+    <value>Toevoegen hoofdstuk</value>
+  </data>
+  <data name="InsertHardness" xml:space="preserve">
+    <value>Toevoegen hardheid</value>
+  </data>
+  <data name="InsertSource" xml:space="preserve">
+    <value>Toevoegen bronverwijzing</value>
+  </data>
+  <data name="InsertSubject" xml:space="preserve">
+    <value>Toevoegen onderwerp</value>
+  </data>
+  <data name="InvalidAccount" xml:space="preserve">
+    <value>Onbekende e-mailadres! Probeer het opnieuw of neem contact op met uw beheerder.</value>
+  </data>
+  <data name="InvalidAnswer" xml:space="preserve">
+    <value>Ongeldige antwoord voor wachtwoord ophalen. Vul een geldige antwoord in.</value>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>Ongeldige e-mailadres. Vul een geldige e-mailadres in.</value>
+  </data>
+  <data name="InvalidEmailAddress" xml:space="preserve">
+    <value>Geef een geldige e-mailadres op!</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>Ongeldig wachtwoord. Vul een geldig wachtwoord in.</value>
+  </data>
+  <data name="InvalidQuestion" xml:space="preserve">
+    <value>Ongeldige vraag voor wachtwoord ophalen. Vul een geldige vraag in.</value>
+  </data>
+  <data name="InvalidUserName" xml:space="preserve">
+    <value>Ongeldige gebruikersnaam. Vul een geldige gebruikersnaam in</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>In gebruik</value>
+  </data>
+  <data name="IsAssigned" xml:space="preserve">
+    <value>Toegewezen</value>
+  </data>
+  <data name="IsLocked" xml:space="preserve">
+    <value>Geblokkeerd?</value>
+  </data>
+  <data name="IsLockedOut" xml:space="preserve">
+    <value>Geblokkeerd</value>
+  </data>
+  <data name="IsPublished" xml:space="preserve">
+    <value>Gepubliceerd</value>
+  </data>
+  <data name="Jaar" xml:space="preserve">
+    <value>Jaar</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>Kernwoorden</value>
+  </data>
+  <data name="Klant" xml:space="preserve">
+    <value>Klant</value>
+  </data>
+  <data name="Kopie" xml:space="preserve">
+    <value>Kopie maken</value>
+  </data>
+  <data name="Kosten" xml:space="preserve">
+    <value>Kosten</value>
+  </data>
+  <data name="LastLoginDate" xml:space="preserve">
+    <value>Laatste inlog</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Achternaam</value>
+  </data>
+  <data name="LastPasswordChangedDate" xml:space="preserve">
+    <value>Datum wachtwoord wijzigen</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Niveau</value>
+  </data>
+  <data name="Levels" xml:space="preserve">
+    <value>Niveau's</value>
+  </data>
+  <data name="Lior" xml:space="preserve">
+    <value>Leidraad Inrichting Openbare Ruimte</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Locatie</value>
+  </data>
+  <data name="Locked" xml:space="preserve">
+    <value>Geblokkeerd</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="LoginToSupportDesk" xml:space="preserve">
+    <value>Inloggen DALI-Helpdesk</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>Uitloggen</value>
+  </data>
+  <data name="LogOn" xml:space="preserve">
+    <value>Inloggen</value>
+  </data>
+  <data name="MailTo" xml:space="preserve">
+    <value>Bericht aan eigenaar</value>
+  </data>
+  <data name="MakeFinal" xml:space="preserve">
+    <value>Definitief maken</value>
+  </data>
+  <data name="MakeFinalToolTip" xml:space="preserve">
+    <value>Versturen naar publisher</value>
+  </data>
+  <data name="MakeInactive" xml:space="preserve">
+    <value>Maak inactief</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Man</value>
+  </data>
+  <data name="Management" xml:space="preserve">
+    <value>Management</value>
+  </data>
+  <data name="ManualReference" xml:space="preserve">
+    <value>Handleiding</value>
+  </data>
+  <data name="Medewerker" xml:space="preserve">
+    <value>Medewerker</value>
+  </data>
+  <data name="MessageIsAbout" xml:space="preserve">
+    <value>Het bericht heeft betrekking op de onderstaande eis:</value>
+  </data>
+  <data name="MessageSendFrom" xml:space="preserve">
+    <value>Het volgende bericht is afkomstig van gebruiker &lt;a href='mailto:{0}'&gt;{1}&lt;/a&gt;:</value>
+  </data>
+  <data name="ModificationModelNotExists" xml:space="preserve">
+    <value>Er is een fout opgetreden. Er is geen nieuwe eis of bestaande eis uit het handboek aan dit wijzigingsverzoek gekoppeld. </value>
+  </data>
+  <data name="ModifiedDate" xml:space="preserve">
+    <value>Wijzigingsdatum</value>
+  </data>
+  <data name="ModifyDate" xml:space="preserve">
+    <value>Bewerkingsdatum</value>
+  </data>
+  <data name="MoreThanOneVersionsFound" xml:space="preserve">
+    <value>Er zijn reeds versies gepubliceerd. Deze eis kan alleen verwijderd worden via de optie "verwijder eis"!</value>
+  </data>
+  <data name="Naam" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Nieuw</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Nieuw wachtwoord</value>
+  </data>
+  <data name="NewSearch" xml:space="preserve">
+    <value>Nieuwe zoekbewerking</value>
+  </data>
+  <data name="NewSelection" xml:space="preserve">
+    <value>Nieuwe selectie</value>
+  </data>
+  <data name="NextPublication" xml:space="preserve">
+    <value>VOLGENDE PUBLICATIE</value>
+  </data>
+  <data name="NieuwWachtwoord" xml:space="preserve">
+    <value>Nieuwe wachtwoord</value>
+  </data>
+  <data name="NoItemToBePublishedMessage" xml:space="preserve">
+    <value>Momenteel kan er geen nieuwe publicatie ingepland worden.  Controleer of er verzoeken ingepland zijn voor publicatie.</value>
+  </data>
+  <data name="Nonactief" xml:space="preserve">
+    <value>Nonactief</value>
+  </data>
+  <data name="NoQueuedItems" xml:space="preserve">
+    <value>Momenteel zijn er geen eisen in de wachtrij voor publicatie</value>
+  </data>
+  <data name="NoResults" xml:space="preserve">
+    <value>Geen resultaten</value>
+  </data>
+  <data name="NotScheduled" xml:space="preserve">
+    <value>Niet ingepland</value>
+  </data>
+  <data name="Nr" xml:space="preserve">
+    <value>Nr.</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="Nummer" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="ObjectsAndPolicyRules" xml:space="preserve">
+    <value>Objecten en eisen</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>Huidig wachtwoord</value>
+  </data>
+  <data name="OnjuisteGebruikerOfWachtwoord" xml:space="preserve">
+    <value>Gebruikersnaam of wachtwoord onjuist</value>
+  </data>
+  <data name="OnPublishingSupportMessage" xml:space="preserve">
+    <value>[Licht reden en consequenties van het wijzigingsverzoek toe en met wie de inhoud is afgestemd]</value>
+  </data>
+  <data name="OnPublishingTitle" xml:space="preserve">
+    <value>Toelichting op wijzigingsverzoek</value>
+  </data>
+  <data name="OnRemovalMessage" xml:space="preserve">
+    <value>[Licht de reden van het verwijderverzoek toe]</value>
+  </data>
+  <data name="OnRemovalTitle" xml:space="preserve">
+    <value>Toelichting op verwijderverzoek</value>
+  </data>
+  <data name="Openen" xml:space="preserve">
+    <value>Openen</value>
+  </data>
+  <data name="OpenPersoonlijkeSjabloonweek" xml:space="preserve">
+    <value>Open persoonlijke sjabloonweek</value>
+  </data>
+  <data name="Opslaan" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="Organisatie" xml:space="preserve">
+    <value>Organisatie</value>
+  </data>
+  <data name="OudWachtwoord" xml:space="preserve">
+    <value>Oude wachtwoord</value>
+  </data>
+  <data name="OwnChangesTitle" xml:space="preserve">
+    <value>Eigen wijziging</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Eigenaar</value>
+  </data>
+  <data name="OwnerChanges" xml:space="preserve">
+    <value>Eigen wijzigingen</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Wachtwoord</value>
+  </data>
+  <data name="PasswordQuestion" xml:space="preserve">
+    <value>Vraag wachtwoord ophalen</value>
+  </data>
+  <data name="PasswordSuccessfullChanged" xml:space="preserve">
+    <value>Uw wachtwoord is succesvol gewijzigd</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Pad</value>
+  </data>
+  <data name="PersonalData" xml:space="preserve">
+    <value>Persoonlijk</value>
+  </data>
+  <data name="Persoonlijk" xml:space="preserve">
+    <value>Persoonlijk</value>
+  </data>
+  <data name="PolicyNrTooltip" xml:space="preserve">
+    <value>Identieke eisnummers hebben betrekking op dezelfde eis.</value>
+  </data>
+  <data name="PolicyRequirementNotFound" xml:space="preserve">
+    <value>Eis is niet gevonden!</value>
+  </data>
+  <data name="PoR" xml:space="preserve">
+    <value>Plan van eisen</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Volgorde</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Voorbeeld weergave</value>
+  </data>
+  <data name="PreviewTooltip" xml:space="preserve">
+    <value>Dit kader geeft voorbeelden weer van media content of geeft informatie weer.</value>
+  </data>
+  <data name="PrintPolicyRequirement" xml:space="preserve">
+    <value>Specificatieblad afdrukken</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="ProjectAfgekeurd" xml:space="preserve">
+    <value>Project afgekeurd</value>
+  </data>
+  <data name="ProviderError" xml:space="preserve">
+    <value>Er is een communicatie fout opgetreden met de authenticatie service. Controleer uw invoer. Neem contact op met de DALI Support Service indien het probleem blijft aanhouden.</value>
+  </data>
+  <data name="Publish" xml:space="preserve">
+    <value>Publiceren</value>
+  </data>
+  <data name="PublishedBy" xml:space="preserve">
+    <value>Publisher</value>
+  </data>
+  <data name="Publisher" xml:space="preserve">
+    <value>Vrijgave</value>
+  </data>
+  <data name="PublishInfo" xml:space="preserve">
+    <value>Publicatie Info</value>
+  </data>
+  <data name="PublishingRequestDenied" xml:space="preserve">
+    <value>Wijzigingsverzoek is afgewezen.</value>
+  </data>
+  <data name="PvE" xml:space="preserve">
+    <value>Programma van Eisen</value>
+  </data>
+  <data name="Reader" xml:space="preserve">
+    <value>Gebruiker</value>
+  </data>
+  <data name="Reconsider" xml:space="preserve">
+    <value>Herzien</value>
+  </data>
+  <data name="Redraw" xml:space="preserve">
+    <value>Status herzien</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Url</value>
+    <comment>Locatie aanduiding</comment>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Afwijzen</value>
+  </data>
+  <data name="RejectChangeForPublishingTooltip" xml:space="preserve">
+    <value>Afwijzen voor publicatie</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Afgewezen</value>
+  </data>
+  <data name="RejectedByPublisher" xml:space="preserve">
+    <value>Afgewezen door publisher</value>
+  </data>
+  <data name="RejectPublishing" xml:space="preserve">
+    <value>Toelichting op afwijzen wijzigingsverzoek</value>
+  </data>
+  <data name="Release" xml:space="preserve">
+    <value>Publicatie</value>
+  </data>
+  <data name="Remark" xml:space="preserve">
+    <value>Ontvangen bericht</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="RemovePolicyRequirement" xml:space="preserve">
+    <value>Verwijder eis</value>
+  </data>
+  <data name="RemovePolicyRequirementTooltip" xml:space="preserve">
+    <value>De gekozen eis wordt verwijderd bij de eerst volgende publicatie en zal niet meer voorkomen bij publiceren van nieuwe versies.</value>
+  </data>
+  <data name="Reporter" xml:space="preserve">
+    <value>Naam melder</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>Ontvangstdatum</value>
+  </data>
+  <data name="RequestPublisherForDelete" xml:space="preserve">
+    <value>Verzoek indienen bij publisher om eis te verwijderen</value>
+  </data>
+  <data name="RequestType" xml:space="preserve">
+    <value>Actie</value>
+  </data>
+  <data name="RequiredArea" xml:space="preserve">
+    <value>Gebied is een verplicht veld</value>
+  </data>
+  <data name="RequiredCategory" xml:space="preserve">
+    <value>Categorie is een verplicht veld</value>
+  </data>
+  <data name="RequiredChapter" xml:space="preserve">
+    <value>Hoofdstuk is een verplicht veld</value>
+  </data>
+  <data name="RequiredChapterNumber" xml:space="preserve">
+    <value>Nummer is een verplicht veld</value>
+  </data>
+  <data name="RequiredDescription" xml:space="preserve">
+    <value>Omschrijving is een verplicht veld</value>
+  </data>
+  <data name="RequiredEmail" xml:space="preserve">
+    <value>E-mailadres is verplicht</value>
+  </data>
+  <data name="RequiredField" xml:space="preserve">
+    <value>Verplicht invoerveld</value>
+  </data>
+  <data name="RequiredFieldPolicyRequirementDescription" xml:space="preserve">
+    <value>Omschrijving van een eis is een verplicht veld om in te voeren</value>
+  </data>
+  <data name="RequiredHardness" xml:space="preserve">
+    <value>Hardheid is een verplicht veld. Selecteer minimaal 1 hardheid</value>
+  </data>
+  <data name="RequiredHelpText" xml:space="preserve">
+    <value>Helptekst is een verplicht veld</value>
+  </data>
+  <data name="RequiredLevel" xml:space="preserve">
+    <value>Niveau is een verplicht veld</value>
+  </data>
+  <data name="RequiredOwner" xml:space="preserve">
+    <value>Selecteer een eigenaar. Eigenaar is een verplicht veld</value>
+  </data>
+  <data name="RequiredPassword" xml:space="preserve">
+    <value>Wachtwoord is verplicht</value>
+  </data>
+  <data name="RequiredShortName" xml:space="preserve">
+    <value>Korte naam is een verplicht veld</value>
+  </data>
+  <data name="RequiredSubject" xml:space="preserve">
+    <value>Onderwerp is een verplicht veld</value>
+  </data>
+  <data name="RequiredUsername" xml:space="preserve">
+    <value>Gebruikersnaam is verplicht</value>
+  </data>
+  <data name="RequiresQuestionAndAnswerDefaultMessage" xml:space="preserve">
+    <value>Wat is uw e-mailadres?</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Wachtwoord resetten</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Resultaat</value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>Resultaten</value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>Resultaten</value>
+  </data>
+  <data name="Retrieve" xml:space="preserve">
+    <value>Ophalen</value>
+  </data>
+  <data name="RetrieveData" xml:space="preserve">
+    <value>Ophalen van gegevens op basis van ingestelde selectiecriteria</value>
+  </data>
+  <data name="RetrievePassword" xml:space="preserve">
+    <value>Type hier uw e-mailadres en we zullen u een nieuw wachtwoord sturen.</value>
+  </data>
+  <data name="ReviewInfo" xml:space="preserve">
+    <value>[Geef een toelichting op het reviewen]</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Rollen</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="SaveAndComplete" xml:space="preserve">
+    <value>Status verwerkt</value>
+  </data>
+  <data name="SaveAndCompleteTooltip" xml:space="preserve">
+    <value>Zet de status op verwerkt als wijzigingen op een eis a.d.v. een wijzigingsvoorstel doorgevoerd zijn. Met deze optie wordt administratief geregeld welke wijzigingsvoorstellen verwerkt zijn en welke in behandeling zijn. De eis wordt niet opgenomen voor publicatie bij toekennen van de status verwerkt.</value>
+  </data>
+  <data name="SaveSequence" xml:space="preserve">
+    <value>Volgorde opslaan</value>
+  </data>
+  <data name="SaveTooltip" xml:space="preserve">
+    <value>Opslaan van wijzigingen</value>
+  </data>
+  <data name="ScheduledDate" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="ScheduledVersion" xml:space="preserve">
+    <value>Versie</value>
+  </data>
+  <data name="ScheduleForPublishing" xml:space="preserve">
+    <value>Opnemen in eerstvolgende publicatie</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="SearchData" xml:space="preserve">
+    <value>Gegevens Zoeken</value>
+  </data>
+  <data name="SearchForResults" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="SearchInput" xml:space="preserve">
+    <value>Invoer</value>
+  </data>
+  <data name="SecretAnswer" xml:space="preserve">
+    <value>Antwoord wachtwoord ophalen</value>
+  </data>
+  <data name="SecretQuestion" xml:space="preserve">
+    <value>Vraag wachtwoord ophalen</value>
+  </data>
+  <data name="SecretQuestionDummy" xml:space="preserve">
+    <value>Wat is uw e-mailadres?</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Alles Selecteren</value>
+  </data>
+  <data name="SelectCriteriaFirstOnAddingBookmark" xml:space="preserve">
+    <value>Maak combinaties met de menu onderdelen Hoofdstuk, Niveau, Gebied en Onderwerp, of type alleen het kernwoord in om als favoriete zoekoptie vast te leggen.</value>
+  </data>
+  <data name="SelectedBookmarkLabel" xml:space="preserve">
+    <value>Geselecteerde favoriet</value>
+  </data>
+  <data name="SelectedDocument" xml:space="preserve">
+    <value>Geselecteerd document</value>
+  </data>
+  <data name="Selecteer" xml:space="preserve">
+    <value>Selecteer</value>
+  </data>
+  <data name="SelectFileFormat" xml:space="preserve">
+    <value>Bestandsformaat selecteren</value>
+  </data>
+  <data name="SelectItem" xml:space="preserve">
+    <value>(Selecteer een optie)</value>
+  </data>
+  <data name="SelectRole" xml:space="preserve">
+    <value>Selecteer een gebruikersrol</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Verstuur</value>
+  </data>
+  <data name="SendToOwner" xml:space="preserve">
+    <value>Versturen</value>
+  </data>
+  <data name="SendToPublisher" xml:space="preserve">
+    <value>Vestuur naar publisher</value>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="ShortRemark" xml:space="preserve">
+    <value>Opmerking</value>
+  </data>
+  <data name="Slogan" xml:space="preserve">
+    <value>DE OPLOSSING VOOR BUITENRUIMTEMANAGEMENT</value>
+  </data>
+  <data name="Soort" xml:space="preserve">
+    <value>Soort</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>Bron</value>
+  </data>
+  <data name="SourceDocument" xml:space="preserve">
+    <value>bronverwijzing</value>
+  </data>
+  <data name="SourceReferencesTileDescription" xml:space="preserve">
+    <value>In de bronverwijzingen zijn in één overzicht alle externe referenties gerubriceerd.</value>
+  </data>
+  <data name="SourceReferencesTileMainTitle" xml:space="preserve">
+    <value>BRONVERWIJZINGEN</value>
+  </data>
+  <data name="SourceReferencesTileSubTitle" xml:space="preserve">
+    <value>Overzicht van bronverwijzingen</value>
+  </data>
+  <data name="Sources" xml:space="preserve">
+    <value>Bronverwijzingen</value>
+  </data>
+  <data name="SpatiesNietToegestaan" xml:space="preserve">
+    <value>Spaties zijn niet toegestaan</value>
+  </data>
+  <data name="SpecificationPage" xml:space="preserve">
+    <value>Specificatie blad</value>
+  </data>
+  <data name="StartTime" xml:space="preserve">
+    <value>Publicatietijdstip</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Provincie</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="StatusDescription" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="StorageLocation" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="StreetName" xml:space="preserve">
+    <value>Straatnaam</value>
+  </data>
+  <data name="Strictness" xml:space="preserve">
+    <value>Hardheid</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Onderwerp</value>
+  </data>
+  <data name="Subjects" xml:space="preserve">
+    <value>Onderwerpen</value>
+  </data>
+  <data name="Successfull" xml:space="preserve">
+    <value>succesvol</value>
+  </data>
+  <data name="SuccessfullUserUnlock" xml:space="preserve">
+    <value>Gebruikersaccount deblokkeren is gelukt</value>
+  </data>
+  <data name="SupportDesk" xml:space="preserve">
+    <value>Mail naar DALI-Helpdesk</value>
+  </data>
+  <data name="Systeem" xml:space="preserve">
+    <value>Systeem</value>
+  </data>
+  <data name="Tarief" xml:space="preserve">
+    <value>Tarief</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>Voorwaarden</value>
+  </data>
+  <data name="TermsAndConditions" xml:space="preserve">
+    <value>Algemene voorwaarden</value>
+  </data>
+  <data name="TermsOfConditions1" xml:space="preserve">
+    <value>U gaat akkoord dat de gegevens en multimedia materialen die in de DEMO versie van DALI gebruikt worden niet voor persoonlijke doeleinden of bedrijfsdoeleinden ingezet worden. </value>
+  </data>
+  <data name="TermsOfConditions2" xml:space="preserve">
+    <value>We delen persoonlijke gegevens niet met bedrijven, organisaties en individuen buiten Buro CITE B.V.</value>
+  </data>
+  <data name="TermsOfConditions3" xml:space="preserve">
+    <value>Uw DALI DEMO account blijft onbeperkt actief. Stuur een e-mail naar dali-support@burocite.nl voor opheffen van uw DALI DEMO account.</value>
+  </data>
+  <data name="TheFollowingChangesAreRejected" xml:space="preserve">
+    <value>Afwijzing van de volgende wijziging(-en)</value>
+  </data>
+  <data name="tm" xml:space="preserve">
+    <value>t/m</value>
+  </data>
+  <data name="ToBeDetermined" xml:space="preserve">
+    <value>Nog nader te bepalen</value>
+  </data>
+  <data name="Toevoegen" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="TooltipForChangeRequestCompleted" xml:space="preserve">
+    <value>Wijzigingen op basis van het wijzigingsverzoek zijn verwerkt</value>
+  </data>
+  <data name="TooltipForChangeRequestFinal" xml:space="preserve">
+    <value>Wijzigingen op basis van het wijzigingsverzoek zijn verwerkt en staan gereed voor publicatie</value>
+  </data>
+  <data name="TooltipForChangeRequestInProgress" xml:space="preserve">
+    <value>De wijzigingsverzoek is momenteel in behandeling voor bewerken van wijzigingen</value>
+  </data>
+  <data name="TooltipForChangeRequestRejected" xml:space="preserve">
+    <value>Wijzigingsverzoek is afgewezen</value>
+  </data>
+  <data name="TooltipForChangeRequestRejectedByPublisher" xml:space="preserve">
+    <value>Wijzigingsverzoek opnieuw beoordelen, deze wordt niet meegenomen voor publicatie</value>
+  </data>
+  <data name="TooltipForNewChangeRequest" xml:space="preserve">
+    <value>Dit is een nieuwe wijzigingsverzoek die is ingediend</value>
+  </data>
+  <data name="TooltipForOwnerOnAddPolicyRequirement" xml:space="preserve">
+    <value>Hoofdstukken waarvoor de gebruiker eigenaar is</value>
+  </data>
+  <data name="Totaal" xml:space="preserve">
+    <value>tot</value>
+  </data>
+  <data name="TownSpecificPolicyRequirements" xml:space="preserve">
+    <value>Gemeentebrede eisen</value>
+  </data>
+  <data name="TypeChangeRequest" xml:space="preserve">
+    <value>Voorstel tot</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>ONBEKEND</value>
+  </data>
+  <data name="UnknownError" xml:space="preserve">
+    <value>Er is een onbekend fout opgetreden. Controleer uw invoer. Neem contact op met de DALI Support Service indien het probleem blijft aanhouden.</value>
+  </data>
+  <data name="UnknownUser" xml:space="preserve">
+    <value>Onbekende Gebruiker</value>
+  </data>
+  <data name="Unlock" xml:space="preserve">
+    <value>Ontgrendelen</value>
+  </data>
+  <data name="UnLocked" xml:space="preserve">
+    <value>Gedeblokkeerd</value>
+  </data>
+  <data name="UnsavedChanges" xml:space="preserve">
+    <value>Niet opgeslagen wijzigingen</value>
+  </data>
+  <data name="UnsavedOrderChanges" xml:space="preserve">
+    <value>Doorgaan? Niet opgeslagen volgorde wijzigingen gaan verloren.  </value>
+  </data>
+  <data name="UnsuccessfullUserUnlock" xml:space="preserve">
+    <value>Gebruikersaccount deblokkeren is niet gelukt</value>
+  </data>
+  <data name="UpdateAreaError" xml:space="preserve">
+    <value>Het gebied {0} bestaat niet!</value>
+  </data>
+  <data name="UpdateChapterError" xml:space="preserve">
+    <value>Hoofdstuk {0} bestaat niet!</value>
+  </data>
+  <data name="UpdateSubjectError" xml:space="preserve">
+    <value>Het onderwerp {0} bestaat niet!</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Gebruiker</value>
+  </data>
+  <data name="UserAccountChangesSaved" xml:space="preserve">
+    <value>De wijzigingen voor gebruikersaccount "{0}" zijn succesvol opgeslagen.</value>
+  </data>
+  <data name="UserAccountCreated" xml:space="preserve">
+    <value>DALI gebruikersaccount "{0}" is succesvol toegevoegd. De accountgegevens zijn tevens per mail verzonden naar "{1}".</value>
+  </data>
+  <data name="UserAccountCreationDate" xml:space="preserve">
+    <value>Toegevoegd</value>
+  </data>
+  <data name="UserAdministration" xml:space="preserve">
+    <value>Gebruikersbeheer</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+  </data>
+  <data name="UserNameAlreadExists" xml:space="preserve">
+    <value>Gebruikersnaam komt reeds voor. Geef een nieuwe op.</value>
+  </data>
+  <data name="UserRejected" xml:space="preserve">
+    <value>Gebruikersaccount aanmaken is afgebroken.Controleer uw invoer. Neem contact op met de DALI Support Service indien het probleem blijft aanhouden.</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Gebruikers</value>
+  </data>
+  <data name="UserStartInfo" xml:space="preserve">
+    <value>Startwijzer</value>
+  </data>
+  <data name="Van" xml:space="preserve">
+    <value>Van</value>
+  </data>
+  <data name="Vandaag" xml:space="preserve">
+    <value>Vandaag</value>
+  </data>
+  <data name="Verification" xml:space="preserve">
+    <value>Controle</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Versie</value>
+  </data>
+  <data name="Verwerkt" xml:space="preserve">
+    <value>Verwerkt</value>
+  </data>
+  <data name="Verwijder" xml:space="preserve">
+    <value>Verwijder</value>
+  </data>
+  <data name="Verwijderen" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="Volgende" xml:space="preserve">
+    <value>Volgende</value>
+  </data>
+  <data name="VoorkeursInstellingen" xml:space="preserve">
+    <value>Voorkeursinstellingen</value>
+  </data>
+  <data name="Voornaam" xml:space="preserve">
+    <value>Voornaam</value>
+  </data>
+  <data name="Vorige" xml:space="preserve">
+    <value>Vorige</value>
+  </data>
+  <data name="WachtOpProjectAccordering" xml:space="preserve">
+    <value>Wacht op project accordering</value>
+  </data>
+  <data name="Wachtwoord" xml:space="preserve">
+    <value>Wachtwoord</value>
+  </data>
+  <data name="WachtwoordMatchedNiet" xml:space="preserve">
+    <value>Wachtwoorden komen niet overeen</value>
+  </data>
+  <data name="WachtwoordNietLeeg" xml:space="preserve">
+    <value>Wachtwoord bevat geen geldige waarde</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Melding</value>
+  </data>
+  <data name="WebGisPublisherTitle" xml:space="preserve">
+    <value>WebGIS Publisher</value>
+  </data>
+  <data name="WebSite" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="WekenLijst" xml:space="preserve">
+    <value>Wekenlijst</value>
+  </data>
+  <data name="WelkomGebruiker" xml:space="preserve">
+    <value>welkom</value>
+  </data>
+  <data name="Wijzigen" xml:space="preserve">
+    <value>Bewerken</value>
+  </data>
+  <data name="ZipCode" xml:space="preserve">
+    <value>Postcode</value>
+  </data>
+</root>

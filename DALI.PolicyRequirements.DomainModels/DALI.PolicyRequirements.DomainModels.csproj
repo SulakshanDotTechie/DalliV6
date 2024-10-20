@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.3.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DALI.Common\DALI.Common.csproj" />
+    <ProjectReference Include="..\DALI.PolicyRequirements.DomainModelInterfaces\DALI.PolicyRequirements.DomainModelInterfaces.csproj" />
+    <ProjectReference Include="..\DALI.SearchEngine.Models\DALI.SearchEngine.Models.csproj" />
+    <ProjectReference Include="..\DALI.Topics.SharedInfrastructure\DALI.Topics.SharedInfrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
